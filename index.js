@@ -20,8 +20,12 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   let empty=[]
-  
-  do (empty.push())
+  let n=number
+  do {
+    empty.push("I love the Beatles!")
+    n++
+  }
+  while (n > number)
   
   return empty
 }
