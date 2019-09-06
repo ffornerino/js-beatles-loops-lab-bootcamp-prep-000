@@ -1,7 +1,7 @@
 // add solution here
 
 function theBeatlesPlay(musicians, instruments){
-  let empty =[];
+  let empty =[]
   for(let i=0; i < musicians.length; i++){
     empty.push(`${musicians[i]} plays ${instruments[i]}`)
   }
@@ -9,8 +9,8 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts(facts){
-  let i=0;
-  let empty =[];
+  let i=0
+  let empty =[]
   
   while(i<facts.length){
     empty.push(`${facts[i]}!!!`)
@@ -19,6 +19,7 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(number){
+  let empty=[]
   
 }
 
